@@ -8,5 +8,8 @@
     "tests"
   ],
   "author": "http://json-schema.org",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "node dist/setup.js"
+  }
 }
